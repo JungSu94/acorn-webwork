@@ -1,3 +1,15 @@
+CREATE TABLE board(
+	num NUMBER PRIMARY KEY,
+	writer VARCHAR2(20) NOT NULL,
+	title VARCHAR2(50) NOT NULL,
+	content	CLOB,
+	viewCount NUMBER DEFAULT 0,
+	createdAt DATE DEFAULT SYSDATE
+);
+
+CREATE SEQUENCE board_seq;
+
+
 CREATE TABLE users(
 	num NUMBER PRIMARY KEY, -- 회원의 고유번호
 	userName VARCHAR2(20) UNIQUE, -- 아이디
@@ -19,7 +31,6 @@ CREATE TABLE member(
 
 CREATE SEQUENCE member_seq;
 
-CREATE SEQUENCE book_seq;
 
 CREATE TABLE BOOK (
     num NUMBER PRIMARY KEY,            
@@ -27,3 +38,5 @@ CREATE TABLE BOOK (
     author VARCHAR2(100),                 
     publisher VARCHAR2(100)                   
 );
+
+CREATE SEQUENCE book_seq;
