@@ -1,4 +1,4 @@
-package test.Dao;
+package test.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import test.Dto.GalleryDto;
-import test.Dto.GalleryImageDto;
+import test.dto.GalleryDto;
+import test.dto.GalleryImageDto;
 import test.util.DbcpBean;
 
 public class GalleryDao {

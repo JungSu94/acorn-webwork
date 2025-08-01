@@ -1,4 +1,4 @@
-package test.Dao;
+package test.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,8 +6,8 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import test.Dto.MemberDto;
-import test.Util.DBConnector;
+import test.dto.MemberDto;
+import test.util.DbcpBean;
 
 /*
  *  Data Access Object 객체를 생성할 클래스 정의하기
@@ -24,7 +24,7 @@ import test.Util.DBConnector;
 			PreparedStatement pstmt=null;
 			ResultSet rs=null;
 			try {
-				conn=new DBConnector().getConn();
+				conn=new DbcpBean().getConn();
 				//실행할 sql문
 				String sql="""
 						SELECT name, addr
@@ -67,7 +67,7 @@ import test.Util.DBConnector;
 		PreparedStatement pstmt=null;
 		ResultSet rs=null;
 		try {
-			conn=new DBConnector().getConn();
+			conn=new DbcpBean().getConn();
 			//실행할 sql문
 			String sql="""
 					SELECT num, name, addr
@@ -109,7 +109,7 @@ import test.Util.DBConnector;
 			//변화된 row 의 갯수를 담을 변수 선언하고 0으로 초기화
 			int rowCount=0;
 			try {
-				conn=new DBConnector().getConn();
+				conn=new DbcpBean().getConn();
 				String sql="""
 							UPDATE member
 							SET name=?, addr=?
@@ -150,7 +150,7 @@ import test.Util.DBConnector;
 			//변화된 row 의 갯수를 담을 변수 선언하고 0으로 초기화
 			int rowCount=0;
 			try {
-				conn=new DBConnector().getConn();
+				conn=new DbcpBean().getConn();
 				String sql="""
 						DELETE FROM member
 						WHERE num=?		
@@ -190,7 +190,7 @@ import test.Util.DBConnector;
 			//변화된 row 의 갯수를 담을 변수 선언하고 0으로 초기화
 			int rowCount=0;
 			try {
-				conn=new DBConnector().getConn();
+				conn=new DbcpBean().getConn();
 				String sql="""
 						INSERT INTO member
 						(num, name, addr)

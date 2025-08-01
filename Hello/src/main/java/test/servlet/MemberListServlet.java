@@ -9,8 +9,8 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import test.Dao.MemberDao;
-import test.Dto.MemberDto;
+import test.dao.MemberDao;
+import test.dto.MemberDto;
 	
 
 @WebServlet("/members")

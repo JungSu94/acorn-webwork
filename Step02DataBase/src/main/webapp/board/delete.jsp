@@ -1,4 +1,4 @@
-<%@page import="test.Dao.BoardDao"%>
+<%@page import="test.dao.BoardDao"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%

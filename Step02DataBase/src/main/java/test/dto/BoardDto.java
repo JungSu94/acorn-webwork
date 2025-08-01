@@ -1,4 +1,4 @@
-package test.Dto;
+package test.dto;
 
 public class BoardDto {
 	private int num;

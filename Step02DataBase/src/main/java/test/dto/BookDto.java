@@ -1,4 +1,4 @@
-package test.Dto;
+package test.dto;
 
 public class BookDto {
 	private int num;

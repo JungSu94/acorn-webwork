@@ -1,6 +1,6 @@
 <%@page import="org.apache.tomcat.jakartaee.commons.lang3.StringUtils"%>
-<%@page import="test.Dao.BoardDao"%>
-<%@page import="test.Dto.BoardDto"%>
+<%@page import="test.dao.BoardDao"%>
+<%@page import="test.dto.BoardDto"%>
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>

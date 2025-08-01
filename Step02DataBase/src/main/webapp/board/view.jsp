@@ -1,9 +1,9 @@
-<%@page import="test.Dao.CommentDao"%>
-<%@page import="test.Dto.CommentDto"%>
+<%@page import="test.dao.CommentDao"%>
+<%@page import="test.dto.CommentDto"%>
 <%@page import="java.util.List"%>
 <%@page import="org.apache.commons.text.StringEscapeUtils"%>
-<%@page import="test.Dao.BoardDao"%>
-<%@page import="test.Dto.BoardDto"%>
+<%@page import="test.dao.BoardDao"%>
+<%@page import="test.dto.BoardDto"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%

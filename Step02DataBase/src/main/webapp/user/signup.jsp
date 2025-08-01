@@ -1,5 +1,5 @@
-<%@page import="test.Dao.UserDao"%>
-<%@page import="test.Dto.UserDto"%>
+<%@page import="test.dao.UserDao"%>
+<%@page import="test.dto.UserDto"%>
 <%@page import="org.mindrot.jbcrypt.BCrypt"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>

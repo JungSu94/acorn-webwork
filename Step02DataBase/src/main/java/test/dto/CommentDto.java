@@ -1,4 +1,4 @@
-package test.Dto;
+package test.dto;
 
 public class CommentDto {
 	private int num;

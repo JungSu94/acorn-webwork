@@ -14,8 +14,8 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.Part;
-import test.Dao.UserDao;
-import test.Dto.UserDto;
+import test.dao.UserDao;
+import test.dto.UserDto;
 /*
  *  enctype="multipart/form-data" 형식의 폼이 전송되었을때 처리할 서블릿 만들기
  */

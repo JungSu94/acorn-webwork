@@ -15,9 +15,9 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.Part;
-import test.Dao.GalleryDao;
-import test.Dto.GalleryDto;
-import test.Dto.GalleryImageDto;
+import test.dao.GalleryDao;
+import test.dto.GalleryDto;
+import test.dto.GalleryImageDto;
 
 @WebServlet("/gallery/save")
 @MultipartConfig(
