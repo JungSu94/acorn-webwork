@@ -10,13 +10,13 @@
 	CommentDao.getInstance().delete(num);
 	//리다일렉트 이동
 	String cpath=request.getContextPath();
-	response.sendRedirect(cpath+"/board/view.jsp?num="+parentNum);
+	response.sendRedirect(cpath+"/gallery/view.jsp?num="+parentNum);
 %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>/board/comment-delete.jsp</title>
+<title>/gallery/comment-delete.jsp</title>
 </head>
 <body>
 
